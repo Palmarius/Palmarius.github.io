@@ -1,0 +1,74 @@
+/* YOUR CUSTOM STYLES */
+.iconIn:hover{
+    color: #000 !important;
+}
+*{margin:0;}
+
+body{
+  font: 200 16px/1 Helvetica, Arial, sans-serif;
+}
+
+img{width:32.2%;}
+
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+.minimal-btn{
+    border-radius: 100px !important;
+    border-color: 1px solid #797979 !important;
+    background: transparent !important;
+    color: #797979;
+    box-shadow: none !important;
+
+}
+.minimal-btn:hover{
+    background: #797979 !important;
+    color: #eaeaea !important;
+}
+.minimal-tag:hover{
+    color: #2a2a2a !important;
+}
+.back-bg{
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+@font-face {
+ font-family:Advent-pro;
+ src: url(font/Typo Grotesk Thin Demo.otf);
+}
+#typo{
+    font-family: Advent-pro;
+}
