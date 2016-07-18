@@ -1,59 +1,415 @@
- 
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>palmarius 2k16</title>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!-- for-mobile-apps -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="keywords" content="Flat Under Construction Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<!-- //for-mobile-apps -->
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script src="js/script.js"></script>
-<link rel="stylesheet" href="css/jquery.countdown.css" />
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link rel="shortcut icon" href="favicon.png" />
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
 
-<!--Google Fonts-->
-<link href='//fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<!--header strat here-->
-<div class="wthree-underconstruction">
- <div class="wrap">
- 	<div class="construction-wl">		
- 		<img src="images/5.png" alt="" style="bottom:35px;width:300px">
- 		
- 		<div class="timer_wrap">
-				<div id="counter">
-					<div class="under-text">
-						
-					</div>					
-				</div>		
-			</div>
+    <body>
+
+        <!--project-->
+
+        <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+        <a class="btn-floating btn-large red" style="background:#009688 !important;">
+          <i class="large material-icons">list</i>
+        </a>
+        <ul> 
+          <li><a href="#info" class="btn-floating red tooltipped" data-position="top" data-delay="50" data-tooltip="About Us"><i class="material-icons">info</i></a></li>
+          <li><a href="#events" class="btn-floating yellow darken-1 tooltipped" data-position="top" data-delay="50" data-tooltip="Events"><i class="material-icons">event</i></a></li>
+          <li><a href="#techtop" class="btn-floating green tooltipped" data-position="top" data-delay="50" data-tooltip="Techtop"><i class="material-icons">code</i></a></li>
+          <li><a href="#map" class="btn-floating blue tooltipped" data-position="top" data-delay="50" data-tooltip="Map"><i class="material-icons">directions</i></a></li>
+        </ul>
+        </div>
+
+
+
+        <div class="navbar-fixed">
+        <nav style="box-shadow: 0 0px 0px 0 rgba(0,0,0,1.16),0 0px 10px 0 rgba(0,0,0,0.12);">
+        <div class="nav-wrapper" style="padding:1rem;background:#fff;">
+        <img href="#" class="brand-logo" src="img/logo.jpg" style="height:70%;">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i style="color:#616161;" class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="" style="color:#616161;">Home</a></li>
+            <li><a href="" style="color:#616161;">IEEE</a></li>
+            <li><a href="" style="color:#616161;">Techtop</a></li>
+            <li><a href="" style="color:#616161;">Schedule</a></li>
+            <li><a href="" style="color:#616161;">Poster</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+        <li><img href="#" style="width: 90%;padding-left: 2rem;padding-top: 2rem;" src="img/palmarius.png" alt=""></li>
+        <li><a href="" style="color:#616161;" class="waves-effect waves-teal">Home</a></li>
+        <li><a href="" style="color:#616161;" class="waves-effect waves-teal">IEEE</a></li>
+        <li><a href="" style="color:#616161;" class="waves-effect waves-teal">Techtop</a></li>
+        <li><a href="" style="color:#616161;" class="waves-effect waves-teal">Schedule</a></li>
+        <li><a href="" style="color:#616161;" class="waves-effect waves-teal">Poster</a></li>
+      </ul>
+        </div>
+        </div>
+        <script>
+          $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+          });
+        </script>
         
- 				
- 			</div>			 
- 			
-		 		<ul class="social-icons" style="padding-top:4rem;">
-		 		
-		 			<li><a href="http://www.fb.com/palmariusofficial" class="fa"> </a></li>
-		 			<li><a href="https://twitter.com/palmariustech" class="tw"> </a></li>
-		 			<li><a href=" https://plus.google.com/u/0/109339797713439856139" class="dri"> </a></li>
-		 			<li><a href=" https://www.youtube.com/channel/UCs5pAlrt2liK4WIVyXfAKpQ" class="ins"> </a></li>
-		 		</ul>
-	 		</div>	
-	 		<div class="clear"> </div>
- 		</div>
- 	</div>
- </div>
-</div>
-<div class="copy-rights">		 	
-	<a href="http://techtop.in/new" target="_blank"><center>
-<h2 style="color:white;">TECHTOP</h2><center></a>	
-</div>
+        </nav>
+        <!--palmarius logo Bg-->
+        <div class="section" style="padding:0px 0px;background-image: linear-gradient(90deg, rgba(80, 196, 214, 0.9) 0%, rgba(82, 113, 209, 0.9) 100%);"> 
+          <center>
+            <img class="wow fadeIn" data-wow-duration="2s" data-wow-offset="2" src="img/logomain.png" style="width:45%;">
+          </center>
+        </div>
+        <!--palmarius logo Bg-->
+        <style>
+          .pal-bg{
+            background:#f5f5f5;
+          }
+          .social-media{
+            color:#797979 !important;
+          }
+          .social-media:hover{
+              color:#000 !important;
+          }
+        </style>
+        <!--palmarius details-->
+        <div id="info" class="section pal-bg">
+          <div class="container" style="text-align:center;padding:2rem;">
+            <h2 class="wow bounce" data-wow-iteration="3" style="font-weight:200;">A B O U T   &nbsp&nbsp&nbspU S</h2>
+            <p class="wow fadeInUp">Palmarius 2K16 is the National level Techfest hosted by Sahrdaya College of Engineering & Technology in connection with Techtop Innovation challenge.
+                TechTop is annually held to identify, promote and celebrate outstanding engineering talents with innovative ideas . Come and experience the joint effort of 6 departments; ECE, CSE,CE, EEE, BME, BTE of Sahrdaya College of Engineering & Technology; as we take you through a technical extravaganza with multi-discipline events all through 5th & 6th August 2016.</p>
+            <div class="wow fadeInUp" data-wow-delay="0.5s" style="padding:3rem;text-align:center;">
+            <a href="" class="social-media">&nbsp&nbsp&nbsp&nbspFacebook&nbsp&nbsp&nbsp&nbsp</a>
+            <a class="social-media" href="">&nbsp&nbsp&nbsp&nbspTwitter&nbsp&nbsp&nbsp&nbsp</a>
+            <a href="" class="social-media">&nbsp&nbsp&nbsp&nbspGoogle-Plus&nbsp&nbsp&nbsp&nbsp</a>
+            <a href="" class="social-media">&nbsp&nbsp&nbsp&nbspYouTube&nbsp&nbsp&nbsp&nbsp</a>
+          </div>
+        </div>
+        </div>
 
-</body>
-</html>
+        <!--palmarius details-->
+
+        <!--Dept tabs-->
+        
+        <div id="events" class="row" style="background:#91d8ea;padding-bottom:3rem;margin-bottom:0px;">
+        <div class="col s12" style="padding:4rem;">
+          <ul class="wow fadeInUp tabs z-depth-1">
+            <li class="tab col s3"><a class="active" href="#test1">CSE</a></li>
+            <li class="tab col s3"><a href="#test2">ECE</a></li>
+            <li class="tab col s3"><a href="#test3">CE</a></li>
+            <li class="tab col s3"><a href="#test4">EEE</a></li>
+            <li class="tab col s3"><a href="#test5">BME</a></li>
+            <li class="tab col s3"><a href="#test6">BTE</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div id="test1" class="col s12" >
+              <center class="col m6 s12">
+                <img id="cse" class="wow animated fadeInLeft" src="img/cse.jpg" style="width:70%">
+              </center>
+              <center class="col m6 s12">
+                <h3 id="cse1" class="wow flow-text animated wow fadeInRight" style="text-align:left;font-size:xx-large;">COMPUTER SCIENCE</h3>
+                <p  id="cse1" class="wow animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button id="cse1" href="#modal1" style="float:left;background:#6698a4;" class="wow animated fadeInRight waves-effect waves-light btn modal-trigger">EVENTS</button>
+              </center>
+          </div>
+          <script>
+            $(document).ready(function(){
+            window.sr = ScrollReveal();
+            sr.reveal('#cse',{ duration: 200 });
+            sr.reveal('#cse1',{ duration: 200 });
+            });
+          </script>
+        </div>
+        <div class="container">
+          <div id="test2" class="col s12" >
+              <center class="col s12 m6">
+                <img class="animated fadeInLeft" src="img/ece.png" style="width:70%">
+              </center>
+              <center class="col s12 m6">
+                <h3 class="flow-text animated fadeInRight" style="text-align:left;font-size:xx-large;">ELECRONICS & COMMUNICATIONS</h3>
+                <p  class="animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button style="float:left;background:#6698a4;" class="animated fadeInRight waves-effect waves-light btn">EVENTS</button>
+              </center>
+          </div>
+        </div>
+        <div class="container">
+          <div id="test3" class="col s12" >
+              <center class="col s12 m6">
+                <img class="animated fadeInLeft" src="img/cee.jpg" style="width:70%">
+              </center>
+              <center class="col s12 m6">
+                <h3 class="flow-text animated fadeInRight" style="text-align:left;font-size:xx-large;">CIVIL</h3>
+                <p  class="animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button style="float:left;background:#6698a4;" class="animated fadeIn waves-effect waves-light btn">EVENTS</button>
+              </center>
+          </div>
+        </div>
+        <div class="container">
+          <div id="test4" class="col s12" >
+              <center class="col s12 m6">
+                <img class="animated fadeInLeft" src="img/eee.jpg" style="width:70%">
+              </center>
+              <center class="col s6">
+                <h3 class="flow-text animated fadeInRight" style="text-align:left;font-size:xx-large;">ELECTRICAL & ELECTRONICS</h3>
+                <p  class="animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button style="float:left;background:#6698a4;" class="animated fadeIn waves-effect waves-light btn">EVENTS</button>
+              </center>
+          </div>
+        </div>
+        <div class="container">
+          <div id="test5" class="col s12" >
+              <center class="col s12 m6">
+                <img class="animated fadeInLeft" src="img/bme.jpg" style="width:70%">
+              </center>
+              <center class="col s12 m6">
+                <h3 class="flow-text animated fadeInRight" style="text-align:left;font-size:xx-large;">BIOMEDICAL</h3>
+                <p  class="animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button style="float:left;background:#6698a4;" class="animated fadeIn waves-effect waves-light btn">EVENTS</button>
+              </center>
+          </div>
+        </div>
+        <div class="container">
+          <div id="test6" class="col s12" >
+              <center class="col s12 m6">
+                <img class="animated fadeInLeft" src="img/bte.jpg" style="width:70%">
+              </center>
+              <center class="col s12 m6">
+                <h3 class="flow-text animated fadeInRight" style="text-align:left;font-size:xx-large;">BIOTECHNOLOGY</h3>
+                <p  class="animated fadeInRight" style="text-align:left">The department of Computer Science is arranging a bunch of technical events including Codextreme, Webdoodle, and much more...</p>
+                <button style="float:left;background:#6698a4;" class="animated fadeIn waves-effect waves-light btn">EVENTS</button>
+              </center>
+          </div>
+        </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+            $('ul.tabs').tabs();
+             });
+        
+        </script>
+        <!--Dept tabs-->
+
+        <!--modals-->
+
+        <script>
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+          
+  </script>
+  <script>
+      $(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+  });
+        
+  </script>
+  
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>CSE Events</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>CODEXTREME</div>
+      <div class="collapsible-body">
+          <p>Dust off your brains , Lets meet the Coder in you.<br><br>This is a programming contest, where the participant has to prove their problem solving skills.<br> A team can consist of a maximum of two members.</p>
+                  
+          
+          <p style="font-weight:500;">Registration Fee: Rs. 50 per head<br>Date : August 5th, 2016</p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>WEB DOODLE</div>
+      <div class="collapsible-body">
+          <p>A Mind of Creativity<br><br>Challenges are the web page creation, debugging and will test some specific HTML, CSS,
+
+      Javascript techniques and knowledge.<br> A team can consist of a maximum of two members.</p>
+                  
+          
+          <p style="font-weight:500;">Registration Fee: Rs. 50 per head<br>Date : August 6th, 2016</p>
+          </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>KHAZANE</div>
+      <div class="collapsible-body">
+         <p>Rich the Treasure, Sweet the pleasure <br><br>This is an online treasure hunt. The participants has to solve various puzzles and problems in
+
+  order</p>
+                  
+          
+          <p style="font-weight:500;">Date : July 30th, 2016 (Online)</p>   
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>HACK IT</div>
+      <div class="collapsible-body">
+         <p>The art of Exploitation<br><br>This event will test the hacking skills of participants. Participants have to solve various levels
+
+  using their expertise in the field of hacking. All the levels will be online. Each level will give
+
+  different problems to crack.<br>This is an individual Event</p>
+                  
+          
+          <p style="font-weight:500;">Date : July 30th, 2016 (Online)</p>   
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>THUNDER BOLT</div>
+      <div class="collapsible-body">
+         <p>The BEGINNING or The END?? Let the MYSTERY unfold..<br><br>
+
+  This is a maze where the participants have to solve various logical and technical problems
+
+(debugging and executing the program) in order to complete the maze.<br>A team can consist of a maximum of two members.</p>
+                  
+          
+          <p style="font-weight:500;">Registration: Rs. 50 per Head<br>Date : August 5th & 6th, 2016 (Online)</p>   
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">list</i>SAVISHKARA</div>
+      <div class="collapsible-body">
+         <p>Making an exhibition of any power or talent<br><br>This is a Software & Hardware Expo<br>A team can consist of a maximum of two members.</p>
+                  
+          
+          <p style="font-weight:500;">Date : August 5th & 6th, 2016 (Online)</p>   
+      </div>
+    </li>
+  </ul>
+    </div>
+    
+  </div>
+
+        <!--modals-->
+
+        <!--IEEE-->
+        <style>
+          .my-button{
+            background:transparent ! important;
+            border:1px solid #fff !important;
+            border-radius:50px !important;
+            color:#fff !important;
+
+          }
+          .my-button:hover{
+            background:#fff !important;
+            color:#38badc !important;
+
+          }
+        </style>
+
+        <!--techtop-->
+
+        <div id="techtop" class="section">
+          <div class="container row" style="padding:2rem;">
+              <center class="col s12 m4" style="padding-top:3rem;">
+                <img  class="wow fadeInLeft" src="img/slider2.jpg" alt="">
+              </center>
+              <div  class="wow fadeInRight col s12 m8" style="padding-top: 3rem;padding-left: 8rem;">
+                <h5 style="text-align: left;">TechTop National Innovation Challenge</h5>
+                <p style="text-align: left;">TechTop National Innovation Challenge is annually held to identify, promote and celebrate outstanding engineering talents with innovative ideas that can be demonstrated and commercialized and push them more to unleash their potential in entrepreneurship.</p>
+                <button style="float:left;color:#fff;" class="wow fadeInUp animated fadeIn waves-effect waves-light btn">Know More</button>
+              </div>
+          </div>
+        </div>
+
+        <!--techtop-->
+
+        <div class="section" style="background:#38badc;padding-top:4rem;padding-bottom:4rem;">
+          <div class="container">
+            <div class="col s12">
+                <p class="wow shake" data-wow-iteration="2" style="text-align:center;color:#fff;font-weight:300;letter-spacing:1px;">The IEEE Chapter in our college has arranged a bunch of events like Paper Presentation, Talks, and much more.</p>
+                <center style="padding-top:1rem;">
+                <button style="float:center;color:#fff;" class="wow fadeInUp my-button animated fadeIn btn-flat">EVENTS</button>
+                </center>
+            </div>
+          </div>
+        </div>
+
+        <!--IEEE-->
+        <!--Partners-->
+
+
+
+        <!--Partners-->
+        
+        
+        <!--Maps and Contact-->
+        <style>
+          .map-responsive{
+          overflow:hidden;
+          padding-bottom:56.25%;
+          position:relative;
+          height:0;
+          }
+          .map-responsive iframe{
+              left:0;
+              top:0;
+              height:100%;
+              width:100%;
+              position:absolute;
+          }
+        </style>
+        <div id="map" class="section" style="padding:2rem;">
+        <div class="wow fadeIn container map-responsive" style="width:100%;">
+          <iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.7795698979053!2d76.28372491403974!3d10.359502392605254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f83104152d61%3A0x47836d6961e2b979!2sSahrdaya+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1468765887878" width="500" height="500" frameborder="0" style="border:0"></iframe>
+        </div>
+        </div>
+        
+        <!--Contact us-->
+
+        <div class="section" style="background:#37474f;">
+          <div class="container row">
+            
+              <h3 class="wow shake" data-wow-iteration="1" style="color:#eaeaea;font-weight:300;text-align:center;padding-top:1rem;padding-bottom:1rem;">CONTACT US</h3>
+              <div class="col s12 m4" style="text-align:center;">
+                  <h5 class="wow fadeInUp" style="color:#eaeaea;font-weight:300;">Faculty Convener</h5>
+                  <div class="wow fadeInUp" style="color:#eaeaea;"><i style="color:#eaeaea;" class="material-icons" style="vertical-align:top;">perm_identity</i>&nbsp Shini S</div>
+                  <div class="wow fadeInUp" style="color:#eaeaea;"><i style="color:#eaeaea;" class="material-icons" style="vertical-align:top;">call</i>&nbsp+91 - 9895117505</div>
+              </div>
+              <div class="col s12 m4" style="text-align:center;border-left:1px solid #455a64;border-right:1px solid #455a64;">
+                  <h5 class="wow fadeInUp" style="color:#eaeaea;font-weight:300;">Student Convener</h5>
+                  <div class="wow fadeInUp" style="color:#eaeaea;"><i style="color:#eaeaea;" class="material-icons" style="vertical-align:top;">perm_identity</i>&nbsp Abhijith B</div>
+                  <div class="wow fadeInUp" style="color:#eaeaea;"><i style="color:#eaeaea;" class="material-icons" style="vertical-align:top;">call</i>&nbsp+91 - 9061226486</div>
+              </div>
+              <div class="col s12 m4" style="text-align:center;">
+                  <h5 class="wow fadeInUp" style="color:#eaeaea;font-weight:300;">E - Mail</h5>
+                  <div class="wow fadeInUp" style="color:#eaeaea;"><i style="color:#eaeaea;" class="material-icons" style="vertical-align:top;">email</i>&nbspinfo@palmarius.tech</div>
+                  
+              </div>
+              
+          </div>
+        </div>
+
+        <!--Contact us-->
+        <!--footer-->
+
+        <div class="section" style="background:#263238;">
+          <center class="wow fadeInUp" style="color:#cfd8dc;font-weight:200;">With&nbsp<i class="wow bounceIn material-icons md-18" data-wow-iteration="100" style="vertical-align:top;">favorite</i>&nbspPalmarius Team</center>
+        </div>
+
+        <!--footer-->
+
+        <!--Maps and Contact-->
+        <!--project-->
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/wow.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+    </body>
+  </html>
+        
