@@ -5,7 +5,7 @@ $(document).ready(function(){
 	/* ---- Countdown timer ---- */
 
 	$('#counter').countdown({
-		timestamp : (new Date()).getTime() + 21*24*60*60*1000
+		timestamp : (new Date("August 5, 2016 09:00:00")).getTime()
 	});
 
     
